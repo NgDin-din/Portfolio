@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Lovely Portfolio | Mỹ Duyên</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #fff0f3; font-family: 'Quicksand', sans-serif; color: #5d4d4a; }
+        .hero-section { 
+            background: #ffb7c5; 
+            background-image: radial-gradient(#ffffff 10%, transparent 10%), radial-gradient(#ffffff 10%, transparent 10%);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+            color: white; padding: 60px 0; border-bottom: 5px dashed #ffc0cb;
+        }
+        .profile-img { width: 180px; height: 180px; object-fit: cover; border: 8px solid white; box-shadow: 0 8px 15px rgba(255,182,193,0.5); }
+        .section-title { border-left: 5px solid #ff4d6d; padding-left: 15px; margin-bottom: 20px; color: #ff4d6d; font-weight: 700; }
+        .card { border: none; border-radius: 20px; box-shadow: 0 4px 15px rgba(255,182,193,0.2); transition: 0.3s; }
+        .card:hover { transform: translateY(-5px); }
+        .badge { background-color: #ffccd5 !important; color: #ff4d6d !important; border-radius: 50px; padding: 8px 15px; }
+        footer { background-color: #ffb7c5; color: white; border-radius: 30px 30px 0 0; margin-top: 50px; }
+        strong { color: #ff4d6d; }
+        .location-tag { color: #ff4d6d; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <header class="hero-section text-center">
+        <div class="container">
+            <img src="https://i.pinimg.com/originals/ba/92/7f/ba927ff34cd961ce2cff74d758c83e4a.jpg" class="rounded-circle profile-img mb-3" alt="Mỹ Duyên">
+            <h1 class="display-4 fw-bold">Nguyễn Trần Mỹ Duyên 🌸</h1>
+            <p class="lead">Sinh viên ngành Kỹ thuật phần mềm CLC ✨</p>
+        </div>
+    </header>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card p-4 mb-4 text-center">
+                    <h3 class="section-title text-start">Thông tin 🍓</h3>
+                    <p class="text-start"><strong>🎂 Ngày sinh:</strong> 03/12/2007</p>
+                    <p class="text-start"><strong>🏠 Quê quán:</strong> <span class="location-tag">TP. Long Xuyên, An Giang</span> 🌾</p>
+                    <p class="text-start"><strong>📧 Email:</strong> duyenb2505041@studen.ctu.edu.vn</p>
+                    <p class="text-start"><strong>🎯 Sở thích:</strong> Lập trình, Vẽ tranh, lên mạng xã hội 🐾</p>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div class="card p-4 mb-4">
+                    <h3 class="section-title">Quá trình học tập 🎀</h3>
+                    <ul class="list-unstyled">
+                        <li>🌸 <strong>Hiện tại:</strong> Theo học Kỹ thuật phần mềm CLC</li>
+                        <li>🌸 <strong>Trước đó:</strong> Tốt nghiệp THPT tại An Giang</li>
+                    </ul>
+                </div>
+
+                <div class="card p-4 mb-4">
+                    <h3 class="section-title">Lĩnh vực chuyên môn 💻</h3>
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="badge">Software Engineering</span>
+                        <span class="badge">Web Development</span>
+                        <span class="badge">C++/Java</span>
+                        <span class="badge">UI/UX Design</span>
+                    </div>
+                    <h3 class="section-title">Kinh nghiệm ☁️</h3>
+                    <p>- Xây dựng các dự án nhỏ trong quá trình học tập.</p>
+                    <p>- Tìm hiểu về quy trình phát triển phần mềm CLC.</p>
+                </div>
+
+                <div class="card p-4">
+                    <h3 class="section-title">Thành tích cá nhân 🏆</h3>
+                    <ul class="list-unstyled">
+                        <li>💖 Sinh viên ưu tú chương trình Chất lượng cao.</li>
+                        <li>💖 Năng nổ trong các hoạt động ngoại khóa tại trường.</li>
+                        <li>💖 Luôn nỗ lực học hỏi công nghệ mới mỗi ngày.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-4">
+        <p>© 2026 Bản quyền thuộc về Nguyễn Trần Mỹ Duyên | Made with 💗</p>
+    </footer>
+
+</body>
+</html>
